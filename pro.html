@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Boxes</title>
+  <style>
+   .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #ecf0f1; /* Optional: Set a background color for the body */
+    }
+    
+
+    .box {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .box1 {
+      background-color: red /* Blue */
+    }
+
+    .box2 {
+      background-color: green; /* Red */
+    }
+
+    .box3 {
+      background-color: yellow; /* Green */
+    }
+
+    .box4 {
+      background-color: pink; /* Orange */
+    }
+  </style>
+</head>
+<body>
+   
+
+  <div class="main">
+    <div class="box box1 btn" id="red"></div>
+  <div class="box box2 btn" id="green"></div>
+  <div class="box box3 btn" id="yellow"></div>
+  <div class="box box4 btn" id="pink"></div>
+  </div>
+<script src="color.js"></script>
+</body>
+</html>
